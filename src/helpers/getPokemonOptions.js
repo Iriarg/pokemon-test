@@ -20,8 +20,6 @@ const getPokemonOptions = async () => {
 
 const getPokemonNames = async ([a, b, c, d] = []) => {
 
-    // const resp = await pokemonApi.get('/1')
-    // console.log(resp.data.name)
     const promiseArr = [
         pokemonApi.get(`/${a}`),
         pokemonApi.get(`/${b}`),

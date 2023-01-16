@@ -9,8 +9,6 @@
 
 </template>
 
-<!-- Características -->
-<!-- Number, required -->
 
 <script>
 export default {
