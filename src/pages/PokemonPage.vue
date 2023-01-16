@@ -1,5 +1,4 @@
 <template>
-  <PokemonLives :lives="lives"/>
 
   <h1 v-if="!pokemon">Espere por favor...</h1>
 
